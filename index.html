@@ -47,7 +47,7 @@
                                 <div class="main-menu__nav">
                                     <ul class="main-menu__list">
                                         <li>
-                                            <a href="#">Home
+                                            <a href="#"> Home
                                             </a>
                                         </li>
                                         <li><a href="#about">About
@@ -164,13 +164,8 @@
                                     posuere tempus magna donec<br> vitae gravida
                                     suspendisse.</p>
                                 <div class="btn-block">
-                                    <a href="#floorplan"
-                                        class="cus-btn light wow fadeInUp"
-                                        data-wow-delay="0.6s">
-                                        View Plans
-                                        <span></span>
-                                    </a>
-                                    <a href="contact.html"
+                                   
+                                    <a href="#contactmodal"  data-bs-toggle="modal" data-bs-target="#contactModal    "
                                         class="cus-btn sec wow fadeInUp"
                                         data-wow-delay="0.7s">
                                         Contact Us
@@ -187,9 +182,9 @@
                         </div>
                         <div class="content-right">
                             <form
-                                class="p-4 rounded-4 shadow-lg slider-form  text-white position-relative 
+                                class="p-4 rounded-4 shadow-lg slider-form d-none d-sm-block  text-white position-relative 
                      mx-auto" style="max-width: 350px;">
-                                <h4 class="mb-4 text-center">Message Type
+                                <h4 class="mb-4 text-center ">Message Type
                                     Here</h4>
 
                                 <div class="mb-3">
@@ -238,6 +233,45 @@
                 </div>
             </section>
             <!-- Hero Section End -->
+
+            <!-- mobile view -->
+             <div class="mt-4">
+            <form class="p-4 rounded-4 d-block d-sm-none shadow popup-forms text-white position-relative 
+                     mx-auto" style="max-width: 350px;">
+          
+          <!-- Close button inside form -->
+         
+          <h4 class="mb-4 text-center text-white">Message Type Here</h4>
+
+          <div class="mb-3">
+            <input type="text" class="form-control form-controls" placeholder="Enter your name">
+          </div>
+
+          <div class="mb-3">
+            <input type="email" class="form-control form-controls" placeholder="Enter your email">
+          </div>
+
+          <div class="mb-3">
+            <input type="text" class="form-control form-controls" placeholder="Enter your phone">
+          </div>
+
+          <!-- Button full-width on mobile, centered on large -->
+          <div class="d-grid mb-3">
+            <button type="submit" class="btn btn-outline-light text-dark bg-white w-100">
+              Send Message
+            </button>
+          </div>
+
+          <!-- Checkbox Notice -->
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="contactCheck">
+            <label class="form-check-label text-white small" for="contactCheck">
+              Contact us today, and get reply within 24 hours! Please read it carefully before submitting the form.
+            </label>
+          </div>
+        </form>
+        </div>
+        
             <div class="page-content">
                 <!-- About Section Start -->
                 <div class="about-1 py-80" id="about">
@@ -870,100 +904,82 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div
-                                        class="property-location-filter-slider wow fadeInUp"
-                                        data-wow-delay="0.8s">
-                                        <div class="col">
-                                            <div
-                                                class="properties-by-city-card">
-                                                <img
-                                                    src="assets/media/properties/property-b-city-1.png"
-                                                    alt>
-                                                <div class="text-block">
-                                                    <h4
-                                                        class="color-white border-3">pricing strating from</h4><br/><br/>
-                                                    <p
-                                                        class="lead color-white">33,000
-                                                        </p>
-                                                </div>
-                                                <a
-                                                    href="#contactmodal" data-bs-toggle="modal" data-bs-target="#contactModal"
-                                                    class="cus-btn sec ">
-                                                    Download Brochure
-                                                    <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 24 24"
-                                                        fill="none">
-                                                        <g
-                                                            clip-path="url(#clip0_3752_13)"><path
-                                                                d="M8.0692 6.75527H9.47545V8.16152H8.0692V6.75527Z" /><path
-                                                                d="M8.0692 9.98294H9.47545V11.3892H8.0692V9.98294Z" /><path
-                                                                d="M14.5245 9.98294H15.9308V11.3892H14.5245V9.98294Z" /><path
-                                                                d="M17.7522 9.98294H19.1585V11.3892H17.7522V9.98294Z" /><path
-                                                                d="M14.5245 13.2107H15.9308V14.6169H14.5245V13.2107Z" /><path
-                                                                d="M17.7522 13.2107H19.1585V14.6169H17.7522V13.2107Z" /><path
-                                                                d="M14.5245 16.4383H15.9308V17.8446H14.5245V16.4383Z" /><path
-                                                                d="M17.7522 16.4383H19.1585V17.8446H17.7522V16.4383Z" /><path
-                                                                d="M14.5245 19.666H15.9308V21.0723H14.5245V19.666Z" /><path
-                                                                d="M17.7522 19.666H19.1585V21.0723H17.7522V19.666Z" /><path
-                                                                d="M4.84153 9.98294H6.24778V11.3892H4.84153V9.98294Z" /><path
-                                                                d="M8.0692 13.2107H9.47545V14.6169H8.0692V13.2107Z" /><path
-                                                                d="M4.84153 13.2107H6.24778V14.6169H4.84153V13.2107Z" /><path
-                                                                d="M8.0692 16.4383H9.47545V17.8446H8.0692V16.4383Z" /><path
-                                                                d="M4.84153 16.4383H6.24778V17.8446H4.84153V16.4383Z" /><path
-                                                                d="M22.3861 22.8937V6.75527H12.7031V3.40071L11.0893 3.66968V0.299927H3.22767V4.97997L1.61386 5.24894V22.8937H0V24.2999H24V22.8937H22.3861ZM20.9799 8.16152V22.8937H12.7031V8.16152H20.9799ZM4.63392 1.70618H9.68302V3.90405L4.63392 4.7456V1.70618ZM3.02011 6.44022L11.2969 5.06074V22.8937H9.47545V19.666H4.84153V22.8937H3.02011V6.44022ZM8.0692 22.8937H6.24778V21.0723H8.0692V22.8937Z" />
-                                                        </g>
-                                                    </svg>
-                                                    <span></span>
-                                                </a>
-                                            </div>
+                                     <div class="row justify-content-center">
+                                   <div class="pricing-container">
+  <div class="pricing-card">
+    <h3>Basic</h3>
+    <p class="price">₹0/mo</p>
+    <ul>
+      <li>1 Project</li>
+      <li>Community Support</li>
+      <li>Limited Access</li>
+    </ul>
+    <div class="d-flex justify-content-center">
+    <a href="#contactmodal" data-bs-toggle="modal" data-bs-target="#contactModal"
+                                            class="cus-btn sec wow fadeInUp"
+                                            data-wow-delay="1.3s">
+                                            Download Brochure
+                                            <svg viewBox="0 0 25 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M19.8759 7.98103C19.532 7.98103 19.2058 8.05711 18.9122 8.19234C18.6769 7.16583 17.7568 6.3975 16.6599 6.3975C16.3085 6.3975 15.9753 6.47667 15.6767 6.61762C15.4132 5.63128 14.5123 4.90252 13.4439 4.90252C13.123 4.90252 12.8171 4.96842 12.5391 5.0872V2.31113C12.5391 1.03673 11.5024 0 10.228 0C8.95358 0 7.9168 1.03673 7.9168 2.31113V13.3079L6.72515 11.5389L6.70649 11.5157C5.81427 10.4066 4.24457 10.1601 3.0554 10.9425C2.43355 11.3516 2.01229 11.9791 1.86913 12.7095C1.72686 13.4354 1.87738 14.171 2.29293 14.7823L6.54585 21.4861L6.56001 21.5076C7.63194 23.0682 9.40227 24 11.2956 24H16.0677C19.4419 24 22.187 21.2549 22.187 17.8807V10.2921C22.187 9.01777 21.1503 7.98103 19.8759 7.98103ZM20.7808 17.8807C20.7808 20.4795 18.6665 22.5938 16.0677 22.5938H11.2956C9.8698 22.5938 8.53644 21.8941 7.72626 20.7216L3.47394 14.0188L3.45979 13.9974C3.25405 13.6978 3.17929 13.3365 3.24913 12.9799C3.31902 12.6234 3.52471 12.317 3.82827 12.1173C4.40132 11.7403 5.15544 11.8527 5.59377 12.3765L9.32305 17.9123V2.31113C9.32305 1.81214 9.72899 1.40625 10.228 1.40625C10.727 1.40625 11.1328 1.81214 11.1328 2.31113V10.6528H12.5391V7.21369C12.5391 6.7147 12.945 6.30881 13.444 6.30881C13.943 6.30881 14.3488 6.7147 14.3488 7.21369V10.6528H15.7551V8.70862C15.7551 8.20964 16.161 7.80375 16.66 7.80375C17.159 7.80375 17.5648 8.20964 17.5648 8.70862V10.6528H18.9711V10.2922C18.9711 9.79317 19.377 9.38728 19.876 9.38728C20.375 9.38728 20.7808 9.79317 20.7808 10.2922V17.8807H20.7808Z"
+                                                    fill="#212627" />
+                                            </svg>
+                                            <span></span>
+                                        </a>
+    </div>
+  </div>
+
+  <div class="pricing-card highlighted">
+    <h3>Pro</h3>
+    <p class="price">₹499/mo</p>
+    <ul>
+      <li>Unlimited Projects</li>
+      <li>Email Support</li>
+      <li>All Features</li>
+    </ul>
+    <div class="d-flex justify-content-center">
+   <a href="#contactmodal" data-bs-toggle="modal" data-bs-target="#contactModal"
+                                            class="cus-btn sec wow fadeInUp"
+                                            data-wow-delay="1.3s">
+                                            Download Brochure
+                                            <svg viewBox="0 0 25 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M19.8759 7.98103C19.532 7.98103 19.2058 8.05711 18.9122 8.19234C18.6769 7.16583 17.7568 6.3975 16.6599 6.3975C16.3085 6.3975 15.9753 6.47667 15.6767 6.61762C15.4132 5.63128 14.5123 4.90252 13.4439 4.90252C13.123 4.90252 12.8171 4.96842 12.5391 5.0872V2.31113C12.5391 1.03673 11.5024 0 10.228 0C8.95358 0 7.9168 1.03673 7.9168 2.31113V13.3079L6.72515 11.5389L6.70649 11.5157C5.81427 10.4066 4.24457 10.1601 3.0554 10.9425C2.43355 11.3516 2.01229 11.9791 1.86913 12.7095C1.72686 13.4354 1.87738 14.171 2.29293 14.7823L6.54585 21.4861L6.56001 21.5076C7.63194 23.0682 9.40227 24 11.2956 24H16.0677C19.4419 24 22.187 21.2549 22.187 17.8807V10.2921C22.187 9.01777 21.1503 7.98103 19.8759 7.98103ZM20.7808 17.8807C20.7808 20.4795 18.6665 22.5938 16.0677 22.5938H11.2956C9.8698 22.5938 8.53644 21.8941 7.72626 20.7216L3.47394 14.0188L3.45979 13.9974C3.25405 13.6978 3.17929 13.3365 3.24913 12.9799C3.31902 12.6234 3.52471 12.317 3.82827 12.1173C4.40132 11.7403 5.15544 11.8527 5.59377 12.3765L9.32305 17.9123V2.31113C9.32305 1.81214 9.72899 1.40625 10.228 1.40625C10.727 1.40625 11.1328 1.81214 11.1328 2.31113V10.6528H12.5391V7.21369C12.5391 6.7147 12.945 6.30881 13.444 6.30881C13.943 6.30881 14.3488 6.7147 14.3488 7.21369V10.6528H15.7551V8.70862C15.7551 8.20964 16.161 7.80375 16.66 7.80375C17.159 7.80375 17.5648 8.20964 17.5648 8.70862V10.6528H18.9711V10.2922C18.9711 9.79317 19.377 9.38728 19.876 9.38728C20.375 9.38728 20.7808 9.79317 20.7808 10.2922V17.8807H20.7808Z"
+                                                    fill="#212627" />
+                                            </svg>
+                                            <span></span>
+                                        </a>
+    </div>
+  </div>
+
+  <div class="pricing-card">
+    <h3>Enterprise</h3>
+    <p class="price">Custom</p>
+    <ul>
+      <li>Team Collaboration</li>
+      <li>Dedicated Support</li>
+      <li>Custom Integrations</li>
+    </ul>
+    <div class="d-flex justify-content-center">
+   <a href="#contactmodal" data-bs-toggle="modal" data-bs-target="#contactModal"
+                                            class="cus-btn sec wow fadeInUp "
+                                            data-wow-delay="1.3s">
+                                            Download Brochure
+                                            <svg viewBox="0 0 25 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M19.8759 7.98103C19.532 7.98103 19.2058 8.05711 18.9122 8.19234C18.6769 7.16583 17.7568 6.3975 16.6599 6.3975C16.3085 6.3975 15.9753 6.47667 15.6767 6.61762C15.4132 5.63128 14.5123 4.90252 13.4439 4.90252C13.123 4.90252 12.8171 4.96842 12.5391 5.0872V2.31113C12.5391 1.03673 11.5024 0 10.228 0C8.95358 0 7.9168 1.03673 7.9168 2.31113V13.3079L6.72515 11.5389L6.70649 11.5157C5.81427 10.4066 4.24457 10.1601 3.0554 10.9425C2.43355 11.3516 2.01229 11.9791 1.86913 12.7095C1.72686 13.4354 1.87738 14.171 2.29293 14.7823L6.54585 21.4861L6.56001 21.5076C7.63194 23.0682 9.40227 24 11.2956 24H16.0677C19.4419 24 22.187 21.2549 22.187 17.8807V10.2921C22.187 9.01777 21.1503 7.98103 19.8759 7.98103ZM20.7808 17.8807C20.7808 20.4795 18.6665 22.5938 16.0677 22.5938H11.2956C9.8698 22.5938 8.53644 21.8941 7.72626 20.7216L3.47394 14.0188L3.45979 13.9974C3.25405 13.6978 3.17929 13.3365 3.24913 12.9799C3.31902 12.6234 3.52471 12.317 3.82827 12.1173C4.40132 11.7403 5.15544 11.8527 5.59377 12.3765L9.32305 17.9123V2.31113C9.32305 1.81214 9.72899 1.40625 10.228 1.40625C10.727 1.40625 11.1328 1.81214 11.1328 2.31113V10.6528H12.5391V7.21369C12.5391 6.7147 12.945 6.30881 13.444 6.30881C13.943 6.30881 14.3488 6.7147 14.3488 7.21369V10.6528H15.7551V8.70862C15.7551 8.20964 16.161 7.80375 16.66 7.80375C17.159 7.80375 17.5648 8.20964 17.5648 8.70862V10.6528H18.9711V10.2922C18.9711 9.79317 19.377 9.38728 19.876 9.38728C20.375 9.38728 20.7808 9.79317 20.7808 10.2922V17.8807H20.7808Z"
+                                                    fill="#212627" />
+                                            </svg>
+                                            <span></span>
+                                        </a>
                                         </div>
-                                        <div class="col">
-                                            <div
-                                                class="properties-by-city-card">
-                                                <img
-                                                    src="assets/media/properties/property-b-city-5.png"
-                                                    alt>
-                                                <div class="text-block">
-                                                    <h4
-                                                        class="color-white">pricing starting from</h4><br/><br/>
-                                                    <p
-                                                        class="lead color-white">40,000
-                                                        </p>
-                                                </div>
-                                                <a
-                                                    href="#contactmodal" data-bs-toggle="modal" data-bs-target="#contactModal"
-                                                    class="cus-btn sec ">
-                                                    Download Brochure
-                                                    <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 24 24"
-                                                        fill="none">
-                                                        <g
-                                                            clip-path="url(#clip0_3752_13)"><path
-                                                                d="M8.0692 6.75527H9.47545V8.16152H8.0692V6.75527Z" /><path
-                                                                d="M8.0692 9.98294H9.47545V11.3892H8.0692V9.98294Z" /><path
-                                                                d="M14.5245 9.98294H15.9308V11.3892H14.5245V9.98294Z" /><path
-                                                                d="M17.7522 9.98294H19.1585V11.3892H17.7522V9.98294Z" /><path
-                                                                d="M14.5245 13.2107H15.9308V14.6169H14.5245V13.2107Z" /><path
-                                                                d="M17.7522 13.2107H19.1585V14.6169H17.7522V13.2107Z" /><path
-                                                                d="M14.5245 16.4383H15.9308V17.8446H14.5245V16.4383Z" /><path
-                                                                d="M17.7522 16.4383H19.1585V17.8446H17.7522V16.4383Z" /><path
-                                                                d="M14.5245 19.666H15.9308V21.0723H14.5245V19.666Z" /><path
-                                                                d="M17.7522 19.666H19.1585V21.0723H17.7522V19.666Z" /><path
-                                                                d="M4.84153 9.98294H6.24778V11.3892H4.84153V9.98294Z" /><path
-                                                                d="M8.0692 13.2107H9.47545V14.6169H8.0692V13.2107Z" /><path
-                                                                d="M4.84153 13.2107H6.24778V14.6169H4.84153V13.2107Z" /><path
-                                                                d="M8.0692 16.4383H9.47545V17.8446H8.0692V16.4383Z" /><path
-                                                                d="M4.84153 16.4383H6.24778V17.8446H4.84153V16.4383Z" /><path
-                                                                d="M22.3861 22.8937V6.75527H12.7031V3.40071L11.0893 3.66968V0.299927H3.22767V4.97997L1.61386 5.24894V22.8937H0V24.2999H24V22.8937H22.3861ZM20.9799 8.16152V22.8937H12.7031V8.16152H20.9799ZM4.63392 1.70618H9.68302V3.90405L4.63392 4.7456V1.70618ZM3.02011 6.44022L11.2969 5.06074V22.8937H9.47545V19.666H4.84153V22.8937H3.02011V6.44022ZM8.0692 22.8937H6.24778V21.0723H8.0692V22.8937Z" />
-                                                        </g>
-                                                    </svg>
-                                                    <span></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
+  </div>
+</div>
+</div>
+
                                 </div>
                             </section>
                             <!-- Property by City Area End -->
@@ -984,7 +1000,7 @@
                                             class="wow fadeInUp shadow border border-3 border-light"
                                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
-                            <div class="col-lg-6 mb-4 mb-lg-0">
+                            <div class="col-lg-6 mb-4 mt-4 mb-lg-0">
                                  <!-- Section Title Start -->
                                             <div
                                                 class="heading mb-32 align-items-start text-start">
