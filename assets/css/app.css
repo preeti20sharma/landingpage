@@ -2905,6 +2905,8 @@ Elements
   padding: clamp(16px, 1.25vw, 32px);
   background: #F5F7F9;
   border-radius: clamp(12px, 1.08vw, 24px);
+  align-items: center;
+  text-align: center;
 }
 .property-type-item .icon-box {
   background: #181D31;
