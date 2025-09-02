@@ -412,7 +412,7 @@ h6,
 .eyebrow {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 8px;
   color: #181D31;
   text-transform: uppercase;
@@ -1701,10 +1701,20 @@ Elements
   background: whitesmoke;
   border-radius: 12px;
   padding: 8px 10px 8px 10px;
+  margin-top: 8px;
   /* background-position: bottom; */
   /* background-size: 100%; */
   /* padding: 20px 46.3px; */
 }
+
+@media(max-width:768px){
+  .main-menu .main-menu__left .main-menu__logo{
+    margin-top: 30px;
+      padding: 5px 8px 5px 8px;
+
+  }
+}
+
 @media (max-width: 1199px) {
   .main-menu .main-menu__left .main-menu__logo {
     padding: 12px 32px;
@@ -1900,7 +1910,7 @@ Elements
 }
 
 .mobile-nav__toggler {
-  font-size: 24px;
+  font-size: 44px;
   font-weight: 300;
   color: #FFFFFF;
   cursor: pointer;
@@ -1916,7 +1926,7 @@ Elements
 }
 
 .mobile-nav__toggler_2 {
-  font-size: 24px;
+  font-size: 84px;
   font-weight: 300;
   color: #131110;
   cursor: pointer;
@@ -2145,9 +2155,9 @@ Elements
     align-content: center;
   }
 }
-.hero-banner .content .text-block {
+/* .hero-banner .content .text-block {
   text-align: center;
-}
+} */
 @media (max-width: 575px) {
   .hero-banner .content .text-block .title br {
     display: none;
@@ -2160,7 +2170,7 @@ Elements
 }
 .hero-banner .content .text-block .btn-block {
   display: flex;
-  justify-content: center;
+  justify-content:flex-start;
   flex-wrap: wrap;
   gap: clamp(24px, 1.66vw, 48px);
 }
@@ -3217,7 +3227,7 @@ Elements
 /*----------------------------------------*/
 .gallery .img-block {
   overflow: hidden;
-  border-radius: clamp(10px, 1vw, 26px);
+  /* border-radius: clamp(10px, 1vw, 26px); */
 }
 .gallery .img-block img {
   -webkit-transition: all 0.6s linear 0s;
@@ -3977,15 +3987,7 @@ button:hover {
   /* border: 2px solid #FAB702; */
   background: whitesmoke;
 }
-.d-flex p {
-  margin: 0;
-  padding: 0 15px; 
-  color: #fff;
-}
 
-.d-flex p:not(:last-child) {
-  border-right: 1px solid #fff; 
-}
 
 .highlight-image{
   width: 480px;
@@ -4002,4 +4004,26 @@ transform:translateY(10px)
 }
 .ireo-image:hover{
 transform:translateY(10px)
+}
+.line-gap{
+  line-height: 28px;
+}
+@media (max-width:768px)
+{
+  .ireo-image{
+    width: 100%;
+  height:auto;
+}
+.highlight-image{
+  width: 100%;
+  height:auto;
+}
+}
+.vl {
+    border-left: 2px solid white; 
+    height: 24px;                
+    margin: 0 16px;               
+}
+.toggle-size{
+  font-size: 34px;
 }
