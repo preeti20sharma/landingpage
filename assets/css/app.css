@@ -4053,3 +4053,9 @@ transform:translateY(10px)
   opacity: 1;
   transform: translateY(0);
 }
+.card-body{
+  background-color: rgb(57, 68, 80);
+}
+.card{
+    background-color: rgb(57, 68, 80);
+}
