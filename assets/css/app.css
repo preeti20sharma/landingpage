@@ -900,6 +900,13 @@ Elements
   background-color: #181D31 !important;
   color: #FFFFFF !important;
 }
+@media(max-width:768px){
+  .cus-btn {
+    font-size:20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 .cus-btn svg {
   width: clamp(20px, 1.25vw, 32px);
   height: clamp(20px, 1.25vw, 32px);
@@ -3822,8 +3829,9 @@ footer .footer-quick-links li a:before {
             list-style: none;
         }
 .contact-area {
-    border-bottom: 1px solid #353C46;
     background: #181D31;
+    height:100%;
+    margin-bottom: 0 !important;
 }
 
 .contact-content p {
@@ -4030,6 +4038,12 @@ transform:translateY(10px)
 }
 .font-main{
   font-size: 20px !important;
+}
+@media(max-width:768px){
+    
+    .font-main{
+  font-size: 20px !important;
+}
 }
 .card .overlay {
   position: absolute;

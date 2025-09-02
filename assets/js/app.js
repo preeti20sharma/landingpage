@@ -270,7 +270,7 @@
           dots:false,
           arrows: false,
           lazyLoad: 'progressive',
-          autoplaySpeed: 2000,
+          autoplaySpeed: 1000,
           speed: 800,
           responsive: [
             {
@@ -288,7 +288,7 @@
             {
               breakpoint: 767,
               settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
               },
             },
           ],
