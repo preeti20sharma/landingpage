@@ -1695,12 +1695,15 @@ Elements
   justify-content: space-between;
 }
 .main-menu .main-menu__left .main-menu__logo {
-  align-items: center;
-  position: relative;
-  background: url(../media/shapes/logo-bg.png) no-repeat;
-  background-position: bottom;
-  background-size: 100%;
-  padding: 20px 46.3px;
+  /* align-items: center; */
+  /* position: relative; */
+  /* background: url(../media/shapes/logo-bg.png) no-repeat; */
+  background: whitesmoke;
+  border-radius: 12px;
+  padding: 8px 10px 8px 10px;
+  /* background-position: bottom; */
+  /* background-size: 100%; */
+  /* padding: 20px 46.3px; */
 }
 @media (max-width: 1199px) {
   .main-menu .main-menu__left .main-menu__logo {
@@ -2110,7 +2113,7 @@ Elements
 /*----------------------------------------*/
 .hero-banner {
   position: relative;
-  background: url(../media/banner/bannerimage.png);
+  background: url(../media/icons/carousel.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2121,7 +2124,7 @@ Elements
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: rgba(0,0,0,0.3); /* black overlay, adjust opacity */
   z-index: 1;
 }
@@ -2133,7 +2136,7 @@ Elements
   align-content: center;
   justify-content:left;
   gap: clamp(48px, 5vw, 180px);
-  padding-bottom: 6.667vw;
+  /* padding-bottom: 6.667vw; */
 }
 @media (max-width: 1199px) {
   .hero-banner .content {
@@ -3791,13 +3794,17 @@ footer .footer-quick-links li a:before {
   opacity: 1;
 }
         img {
-    max-width: 100%;
+    max-width:100%;
     height: auto;
 }
-        section {
+.logo-image{
+   max-width:120px;
+    height: auto;
+}
+        /* section {
             padding: 60px 0; 
-           /* min-height: 100vh;*/
-        }
+           min-height: 100vh;
+        } */
  ul {
             margin: 0;
             padding: 0;
@@ -3969,4 +3976,30 @@ button:hover {
 .highlighted {
   /* border: 2px solid #FAB702; */
   background: whitesmoke;
+}
+.d-flex p {
+  margin: 0;
+  padding: 0 15px; 
+  color: #fff;
+}
+
+.d-flex p:not(:last-child) {
+  border-right: 1px solid #fff; 
+}
+
+.highlight-image{
+  width: 480px;
+  height:500px;
+  transition:0.2s ease-in-out;
+}
+.highlight-image:hover{
+transform:translateY(10px)
+}
+.ireo-image{
+    width: 380px;
+  height:400px;
+  transition:0.2s ease-in-out;
+}
+.ireo-image:hover{
+transform:translateY(10px)
 }
