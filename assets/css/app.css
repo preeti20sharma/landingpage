@@ -4073,3 +4073,49 @@ transform:translateY(10px)
 .card{
     background-color: rgb(57, 68, 80);
 }
+/* btn */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  text-decoration: none;
+}
+
+.call-button {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background-color: #2542d3;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  text-decoration: none;
+}
+
+.whatsapp-button:hover {
+  background-color: #20b25d;
+}
+
+.whatsapp-icon {
+  font-size: 30px !important;
+}
+
+.call-icon {
+  font-size: 25px !important;
+}
