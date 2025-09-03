@@ -3831,7 +3831,7 @@ footer .footer-quick-links li a:before {
 .contact-area {
     background: #181D31;
     height:100%;
-    margin-bottom: 0 !important;
+    margin-bottom: -15px !important;
 }
 
 .contact-content p {
